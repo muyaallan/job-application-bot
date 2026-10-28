@@ -1,0 +1,56 @@
+# ===== Environment & secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.spec
+
+# ===== Backups & logs =====
+*.bak
+*.bak2
+*.bak3
+*.bak4
+*.broken-*
+*.orig
+*~
+*.log
+job_bot.log
+activity_log.jsonl
+
+# ===== Generated output (personal data, do not commit) =====
+answers.json
+answers_review.txt
+cover_letters/
+drafts.json
+drafts_old.json
+ranked_jobs.csv
+ranked_jobs.json
+seen_emails.json
+skipped_history.json
+cover_letters_shortlist.txt
+
+# ===== Personal documents =====
+*.pdf
+
+# ===== Node / Next (jobmatch subfolder) =====
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# ===== OS & IDE =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
